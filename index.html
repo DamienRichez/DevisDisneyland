@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <title>Simulateur Sejour Disney Pass Annuel</title>
+</head>
+<body>
+
+<div class="container contact-form">
+    <div class="contact-image">
+        <img src="https://journalduluxe.fr/wp-content/uploads/2018/10/mickeyherme.png" alt="rocket_contact"/>
+    </div>
+    <form id="formulaire">
+        <h3>Simulateur Sejour Disney Pass Annuel</h3>
+        <h6>Sous Réserve d'application de la réduction maximale</h6>
+       <div class="row">
+            <div class="col-md-12">
+                <div class="form-group">
+                    <label>Pass Annuel:</label>
+                    <select class="form-control" name="passAnnuel" id="passAnnuel">
+                        <option value="magicPlus">Magic Plus</option>
+                        <option value="infinity">Infinity</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label>Periode:</label>
+                    <select class="form-control" name="periode" id="periode">
+                        <option value="tbs">Très basse saison</option>
+                        <option value="bs">Basse saison</option>
+                        <option value="normal">Moyenne Saison</option>
+                        <option value="modere">Saison Intermédiaire</option>
+                        <option value="haute">Haute saison</option>
+                    </select>
+                    <small><a href="https://media.disneylandparis.com/d4th/fr-fr/images/a20_fr_land_std_tcm808-196436.pdf" target="_blank">Lien vers le calendrier officiel</a></small>
+                </div>
+                <div class="form-group">
+                    <label>Hôtel:</label>
+                    <select class="form-control" name="hotel" id="hotel">
+                        <option value="santafe">Santa Fe</option>
+                        <option value="cheyenne">Cheyenne</option>
+                        <option value="sequoialodge">Sequoia Lodge</option>
+                        <option value="goldenforest">Golden Forest</option>
+                        <option value="newport">Newport Bay Club</option>
+                        <option value="compass">Compass Club</option>
+                        <option value="dlh">Disneyland Hôtel</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label>Nombre de personne(s):</label>
+                    <select class="form-control" name="personne" id="personne">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label>Nombre de chambre(s):</label>
+                    <select class="form-control" name="chambre" id="chambre">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label>Pension Repas:</label>
+                    <select class="form-control" name="pension" id="pension">
+                        <option value="aucune">Aucune</option>
+                        <option value="pensionplus">Pension Complète Plus</option>
+                        <option value="pensionpremium">Pension Complète Premium</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label>Billet(s) Privilége:</label>
+                    <select class="form-control" name="billetP" id="billetP">
+                        <option value="0">0</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label>Event(s):</label>
+                    <select class="form-control" name="event" id="event">
+                        <option value="aucun">Aucun</option>
+                        <option value="electroland">Electroland 2020</option>
+                        <option value="halloween">Soirée Halloween</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <input type="submit" class="btnContact" value="Valider" />
+                </div>
+            </div>
+        </div>
+    </form>
+    <div id="instructions">
+
+    </div>
+</div>
+
+</body>
+<script src="js/main.js"></script>
+</html>
